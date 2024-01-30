@@ -51,8 +51,8 @@ while (count <= 60) {
 
 
 /* ----practice task three------ */
-
-let n = 81;
+/* -------sum of odd numbers------ */
+/* let n = 81;
 let sum = 0;
 while(n <= 131){
     if(n % 2 === 1){
@@ -62,4 +62,23 @@ while(n <= 131){
     }
     n++;
 }
-console.log('All the odd numbers total sum:', sum);
+console.log('All the odd numbers total sum:', sum); */
+
+
+/* ------sum of even umbers----- */
+let n = 206;
+let sum = 0;
+while(n <= 311){
+    if(n % 2 === 0){
+        // console.log(n);
+        sum = sum + n;
+        // console.log(sum);
+        
+    }
+    n++;
+}
+console.log('Sum of total odd numbers:', sum);
+
+
+
+
