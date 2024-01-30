@@ -12,10 +12,38 @@ while (count <= 60) {
 
 // ---practice task ---2--
 // -----odd numbers----
-let n = 61;
-while(n <= 100){
-    if(n % 2 === 1){
+// let n = 61;
+/* while (n <= 100) {
+     if (n % 2 === 1) {
+         console.log(n);
+     }
+     n++; */
+
+
+    //    another way
+    /*  if((n % 2) !== 0){
+         console.log(n);
+     }
+     n++;
+     
+ } */
+
+
+
+ /* -----even numbers---- */
+
+// let n = 78;
+while (n <= 98) {
+    if ((n % 2) === 0) {
         console.log(n);
     }
     n++;
+
+    //    another way
+    /*  if((n % 2) !== 1){
+         console.log(n);
+     }
+     n++;
+      */
+
 }
