@@ -20,30 +20,46 @@ while (count <= 60) {
      n++; */
 
 
-    //    another way
-    /*  if((n % 2) !== 0){
-         console.log(n);
-     }
-     n++;
-     
- } */
+//    another way
+/*  if((n % 2) !== 0){
+     console.log(n);
+ }
+ n++;
+ 
+} */
 
 
 
- /* -----even numbers---- */
+/* -----even numbers---- */
 
 // let n = 78;
-while (n <= 98) {
+/* while (n <= 98) {
     if ((n % 2) === 0) {
+        console.log(n);
+    }
+    n++; */
+
+    //    another way
+ /*    if ((n % 2) !== 1) {
         console.log(n);
     }
     n++;
 
-    //    another way
-    /*  if((n % 2) !== 1){
-         console.log(n);
-     }
-     n++;
-      */
+} */
 
+
+
+
+/* ----practice task three------ */
+
+let n = 81;
+let sum = 0;
+while(n <= 131){
+    if(n % 2 === 1){
+        // console.log(n);
+        sum = sum + n;
+        console.log(sum);
+    }
+    n++;
 }
+console.log('All the odd numbers total sum:', sum);
