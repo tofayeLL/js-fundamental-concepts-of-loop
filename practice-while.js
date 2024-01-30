@@ -66,7 +66,7 @@ console.log('All the odd numbers total sum:', sum); */
 
 
 /* ------sum of even umbers----- */
-let n = 206;
+/* let n = 206;
 let sum = 0;
 while(n <= 311){
     if(n % 2 === 0){
@@ -77,8 +77,27 @@ while(n <= 311){
     }
     n++;
 }
-console.log('Sum of total odd numbers:', sum);
+console.log('Sum of total odd numbers:', sum); */
 
+
+
+
+/* -----practice task five----- */
+/* ---multiplication table for number 5---- */
+let n = 5;
+let i = 1;
+while(i <= 10 ){
+    console.log(n + "x" + i + "=" + n * i);
+    i++;
+}
+
+
+// by using for loop make multiplication table for number 5
+/* let n = 5;
+for (let i = 1; i <= 10; i++){
+    console.log(n + 'x' + i + '=' + n * i);
+}
+ */
 
 
 
