@@ -56,10 +56,16 @@ console.log('Total sum of even numbers:', sum); */
 /* ---------practice task four----- */
 /* -----multiplication table for number 9-------- */
 
-let n = 9;
+/* let n = 9;
 for(let i = 1; i <= 10; i++){
     console.log(n + 'x' + i + '=' + n * i );
 }
+ */
 
+
+/* --------practice task five----- */
+for(let count = 81; count >= 65; count--){
+    console.log(count);
+}
 
 
