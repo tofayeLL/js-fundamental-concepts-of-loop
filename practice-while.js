@@ -82,15 +82,15 @@ console.log('Sum of total odd numbers:', sum); */
 
 
 
-/* -----practice task five----- */
+/* -----practice task four----- */
 /* ---multiplication table for number 5---- */
-let n = 5;
+/* let n = 5;
 let i = 1;
 while(i <= 10 ){
     console.log(n + "x" + i + "=" + n * i);
     i++;
 }
-
+ */
 
 // by using for loop make multiplication table for number 5
 /* let n = 5;
@@ -98,6 +98,16 @@ for (let i = 1; i <= 10; i++){
     console.log(n + 'x' + i + '=' + n * i);
 }
  */
+
+
+
+/* ------practice task five------ */
+
+let count = 21;
+while(count >= 15){
+    console.log(count);
+    count--;
+}
 
 
 
