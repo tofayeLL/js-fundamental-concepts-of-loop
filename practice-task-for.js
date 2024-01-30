@@ -40,7 +40,7 @@ console.log('Total sum of odd numbers:', total); */
 
 
 /* -------sum of even numbers----- */
-let sum = 0;
+/* let sum = 0;
 for(let i = 51; i <= 85; i++){
     if(i  % 2 === 0){
         // console.log(i);
@@ -48,7 +48,18 @@ for(let i = 51; i <= 85; i++){
         // console.log(sum);
     }
 }
-console.log('Total sum of even numbers:', sum);
+console.log('Total sum of even numbers:', sum); */
+
+
+
+
+/* ---------practice task four----- */
+/* -----multiplication table for number 9-------- */
+
+let n = 9;
+for(let i = 1; i <= 10; i++){
+    console.log(n + 'x' + i + '=' + n * i );
+}
 
 
 
